@@ -124,7 +124,7 @@ go run ./cmd/demo     # starts on 127.0.0.1:NNNN, POSTs a batch, GETs the trace
 The demo prints the full projected trace shape — that's the same JSON
 the upstream UI's trace-detail page would render against ClickHouse.
 
-## Upstream source reading
+## Upstream Source Reading
 
 Open [`upstream-readings/s01-trace-ingestion.py`](../../upstream-readings/s01-trace-ingestion.py).
 It excerpts the Next.js handler and the `processEventBatch` switch,
