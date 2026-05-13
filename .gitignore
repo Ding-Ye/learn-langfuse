@@ -1,0 +1,21 @@
+# Local research artifacts produced by learn-repo-generator skill.
+.learn/
+
+# Go
+*.out
+/coverage.txt
+/dist/
+agents/*/cmd/*/bin/
+
+# Web shell (Next.js)
+web/node_modules/
+web/.next/
+web/out/
+web/.env*.local
+web/npm-debug.log*
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
